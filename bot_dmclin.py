@@ -101,7 +101,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Cancelado.")
     return ConversationHandler.END
 
-app = ApplicationBuilder().token("TU_TOKEN_AQUI").build()
+app = ApplicationBuilder().token("7512232846:AAH5JgiT4FLocuH3wrXBTlz_JjZ_ZiDS1KE").build()
 
 conv_handler = ConversationHandler(
     entry_points=[CommandHandler("dmclin", dmclin)],
